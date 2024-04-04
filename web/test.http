@@ -4,8 +4,8 @@ GET http://localhost:4004/odata/v4/staffsrv/staff HTTP/1.1
 GET http://localhost:4004/odata/v4/staffsrv/salary HTTP/1.1
 ### Get Staff-address details
 GET http://localhost:4004/odata/v4/staffsrv/address HTTP/1.1
-### Get Staff,address,salary details
-GET http://localhost:4004/odata/v4/staffsrv/staff?$expand=salary,address HTTP/1.1
+### Get Staff,address,salary,department details
+GET http://localhost:4004/odata/v4/staffsrv/staff?$expand=salary,address,department HTTP/1.1
 ### Get Staffinfo details
 # DELETE http://localhost:4004/odata/v4/staffsrv/address/540ac6d6-58f7-4fcc-8a86-5e0cdf78bed0 HTTP/1.1
 
