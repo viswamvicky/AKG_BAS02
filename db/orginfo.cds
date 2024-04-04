@@ -1,26 +1,30 @@
 namespace staffinfo;
+
 using {cuid} from '@sap/cds/common';
 
 
-entity Staff  {
-    key id : UUID;
-    sName       : String;
-    sDepartment : Integer;
-    sGender     : String; 
-    address     : Composition of many Address
+entity Staff {
+  key id          : UUID;
+      sName       : String;
+      sDepartment : Integer;
+      sGender     : String;
+      address     : Composition of many Address
                       on address.staff = $self;
-    salary      : Composition of many Salary
+      salary      : Composition of many Salary
                       on salary.staff = $self;
+      department  : Composition of many Salary
+                      on department.staff = $self;
 
 }
+
 entity Address {
-    key id :UUID;
-  sVillage : String;
-  sTown    : String;
-  sDistric : String;
-  sState   : String;
-  iPincode : Integer;
-  staff:Association to Staff;
+  key id       : UUID;
+      sVillage : String;
+      sTown    : String;
+      sDistric : String;
+      sState   : String;
+      iPincode : Integer;
+      staff    : Association to Staff;
 }
 
 entity Salary : cuid {
@@ -31,3 +35,8 @@ entity Salary : cuid {
   staff      : Association to Staff;
 }
 
+entity Department : cuid {
+  name        : String;
+  description : String;
+  staff       : Association to Staff;
+}

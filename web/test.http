@@ -8,3 +8,13 @@ GET http://localhost:4004/odata/v4/staffsrv/address HTTP/1.1
 GET http://localhost:4004/odata/v4/staffsrv/staff?$expand=salary,address HTTP/1.1
 ### Get Staffinfo details
 # DELETE http://localhost:4004/odata/v4/staffsrv/address/540ac6d6-58f7-4fcc-8a86-5e0cdf78bed0 HTTP/1.1
+
+POST http://localhost:4004/odata/v4/staffsrv/staff HTTP/1.1
+Content-Type: application/json
+
+   {
+      "id": "fcc5d1b5-10ca-4f08-ad3d-f5e74b05d5ff",
+      "sName": "rohan",
+      "sDepartment": 4,
+      "sGender": "Male"
+    }
