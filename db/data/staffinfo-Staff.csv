@@ -1,4 +1,4 @@
-id,sName,sDepartment,sGender
-u7bu1ahj4shmf5vvudk1tcrp,John,1,Male
-jgp465xc8ki1alrhix5lxcu7,Emma,3,Female
-umhxf0fjj3fej901l1b5458a,Michael,5,Male
+ID,sName,sDepartment,sGender,address_ID,salary_ID,department_ID
+u7bu1ahj4shmf5vvudk1tcrp,John,1,Male,a9b0864a-f71f-11ee-a48b-325096b39f47,a9b0891a-f71f-11ee-91b5-325096b39f47,a9b089f6-f71f-11ee-b6a3-325096b39f47
+jgp465xc8ki1alrhix5lxcu7,Emma,3,Female,a9b0885c-f71f-11ee-9dd3-325096b39f47,a9b0896a-f71f-11ee-974f-325096b39f47,a9b08a3c-f71f-11ee-af98-325096b39f47
+umhxf0fjj3fej901l1b5458a,Michael,5,Male,a9b088ca-f71f-11ee-86dc-325096b39f47,a9b089b0-f71f-11ee-8554-325096b39f47,a9b08a78-f71f-11ee-b66d-325096b39f47

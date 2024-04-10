@@ -12,7 +12,8 @@
     "@sap/hana-client": "^2.20.15",
     "@sap/xssec": "^3.6.1",
     "express": "^4",
-    "npx": "^10.2.2"
+    "npx": "^10.2.2",
+    "sqlite3": "^5.1.7"
   },
   "devDependencies": {
     "@cap-js/sqlite": "^1",

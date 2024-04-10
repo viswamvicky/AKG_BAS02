@@ -1,4 +1,4 @@
 ID,name,description,staff_id
-1,Department A,Responsible for managing sales and marketing activities.,540ac6d6-58f7-4fcc-8a86-5e0cdf78bed0
-2,Department B,Handles product development and innovation.,622b0427-8a72-4a88-8c7a-fa84fdf7b862
-3,Department C,Responsible for customer support and service.,d6b006c7-84d9-4e29-a56f-df6c3d916d77
+a9b089f6-f71f-11ee-b6a3-325096b39f47,Department A,Responsible for managing sales and marketing activities.,249eee14-f720-11ee-8825-325096b39f47
+a9b08a3c-f71f-11ee-af98-325096b39f47,Department B,Handles product development and innovation.,249ef1fc-f720-11ee-b819-325096b39f47
+a9b08a78-f71f-11ee-b66d-325096b39f47,Department C,Responsible for customer support and service.,249ef29c-f720-11ee-9c44-325096b39f47
