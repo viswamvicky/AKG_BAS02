@@ -1,9 +1,9 @@
 using staffsrv from './orgstaffinfo-srv';
 
-annotate staffsrv.staff with @Capabilities : { 
+annotate staffsrv.Staff with @Capabilities : { 
     ReadRestrictions : {
         $Type : 'Capabilities.ReadRestrictionsType',
-        Readable:false
+        Readable:true
     },
     InsertRestrictions : {
         $Type : 'Capabilities.InsertRestrictionsType',
@@ -11,6 +11,6 @@ annotate staffsrv.staff with @Capabilities : {
     },
     DeleteRestrictions : {
         $Type : 'Capabilities.DeleteRestrictionsType',
-        Deletable:false
+        Deletable:true
     },
  };
